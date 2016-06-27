@@ -1,4 +1,9 @@
-app.controller('HomeController', function($scope){
+app.controller('AboutController', function($scope){
   $scope.view = {};
-  $scope.view.message = "Welcome!"
+  $scope.view.message = "All About Me!"
+});
+
+app.controller('ExperienceController', function($scope){
+  $scope.view = {};
+  $scope.view.message = "My Experience!"
 });

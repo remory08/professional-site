@@ -3,11 +3,11 @@ var app = angular.module("professsional-site", ['ngRoute', 'firebase']);
 app.config(function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/home.html',
-        controller: 'HomeController'
+        templateUrl: 'partials/about.html',
+        controller: 'AboutController'
       })
-      .when('/dogs', {
-        templateUrl: 'partials/dogs.html',
-        controller: 'DogsController'
+      .when('/experience', {
+        templateUrl: 'partials/experience.html',
+        controller: 'ExperienceController'
       })
 });
