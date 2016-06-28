@@ -12,14 +12,14 @@ app.config(function($routeProvider) {
       })
       .when('/projects', {
         templateUrl: 'partials/projects.html',
-        controller: 'ProjectsController'
+        // controller: 'ProjectsController'
       })
       .when('/experience', {
         templateUrl: 'partials/experience.html',
-        controller: 'ExperienceController'
+        // controller: 'ExperienceController'
       })
       .when('/skills', {
         templateUrl: 'partials/skills.html',
-        controller: 'SkillsController'
+        // controller: 'SkillsController'
       })
 });
